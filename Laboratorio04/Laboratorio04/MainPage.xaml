@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Laboratorio04.MainPage">
+
+    <StackLayout>
+        <Label
+               Text="Menu de Elsin Vila Guillen - Navegaciones"
+               FontSize="20"
+               TextColor="Orange"
+               VerticalTextAlignment="Center" 
+               HorizontalOptions="Center"/>
+        <Button x:Name="Item1" Text="Navigation"/>
+        <Button x:Name="Item2" Text="TabbedPage"/>
+        <Button x:Name="Item3" Text="CarouselPage"/>
+        <Button x:Name="Item4" Text="ModalPages"/>
+        <Button x:Name="Item5" Text="DisplayAlert"/>
+        
+    </StackLayout>
+</ContentPage>
